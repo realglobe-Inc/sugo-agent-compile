@@ -1,0 +1,53 @@
+{
+  "name": "sugo-agent-compile",
+  "version": "1.0.0",
+  "description": "Client for sugo-endpoint-compile",
+  "main": "lib",
+  "scripts": {
+    "prepublish": "./ci/build.js && ./ci/browser.js",
+    "test": "./ci/test.js"
+  },
+  "repository": "realglobe-Inc/sugo-agent-compile",
+  "keywords": [
+    "SUGOS",
+    "agent"
+  ],
+  "author": {
+    "email": "okunishitaka.com@gmail.com",
+    "name": "Taka Okunishi",
+    "url": "http://okunishitaka.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/realglobe-Inc/sugo-agent-compile/issues"
+  },
+  "homepage": "https://github.com/realglobe-Inc/sugo-agent-compile#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "sugo-agent-base": "^1.2.0"
+  },
+  "devDependencies": {
+    "ape-compiling": "^4.3.2",
+    "ape-covering": "^3.0.3",
+    "ape-formatting": "^1.0.0",
+    "ape-releasing": "^4.0.1",
+    "ape-reporting": "^3.0.1",
+    "ape-tasking": "^4.0.2",
+    "ape-testing": "^4.0.0",
+    "ape-tmpl": "^5.0.6",
+    "ape-updating": "^4.0.1",
+    "coz": "^6.0.3",
+    "filedel": "^2.0.1",
+    "injectmock": "^2.0.0",
+    "sg-server": "^1.2.2",
+    "sugo-agent-base": "^1.1.0",
+    "sugo-endpoint-compile": "^1.0.1"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  },
+  "publishConfig": {
+    "registry": "https://realglobe.artifactoryonline.com/realglobe/api/npm/npm-local"
+  }
+}

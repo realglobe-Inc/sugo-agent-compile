@@ -1,0 +1,18 @@
+/**
+ * {{pkg.description}}
+ * @module {{pkg.name}}
+ */
+
+'use strict'
+
+const create = require('./create')
+const SugoAgentCompile = require('./sugo_agent_compile')
+
+let lib = create.bind(this)
+
+Object.assign(lib, SugoAgentCompile, {
+  create,
+  SugoAgentCompile
+})
+
+module.exports = lib
