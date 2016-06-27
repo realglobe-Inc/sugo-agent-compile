@@ -1,6 +1,6 @@
 {
   "name": "sugo-agent-compile",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Client for sugo-endpoint-compile",
   "main": "lib",
   "scripts": {
