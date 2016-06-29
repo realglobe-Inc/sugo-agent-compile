@@ -76,7 +76,7 @@ const sugoAgentCompile = require('sugo-agent-compile')
 const co = require('co')
 
 co(function * () {
-  let agent = sugoAgentCompile('http://my-server.com')
+  let agent = sugoAgentCompile('http://my-server.com/procs/compile')
 
   // Check if server available
   {

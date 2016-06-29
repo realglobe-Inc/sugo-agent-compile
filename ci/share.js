@@ -8,6 +8,6 @@
 
 process.chdir(`${__dirname}/..`)
 
-const agentShare = require('sugos-ci')
+const {agentShare} = require('sugos-ci')
 
 agentShare({})
