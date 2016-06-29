@@ -9,7 +9,7 @@ co(function * () {
   // Check if server available
   {
     let ok = yield agent.knock() // Send HTTP HEAD request.
-    /** ... */
+    /* ... */
   }
 
   // Compile es6 script
@@ -20,6 +20,6 @@ foo()
 `
     let compiled = yield agent.compile(myScript)
     console.log(compiled)
-    /** ... */
+    /* ... */
   }
 }).catch((err) => console.error(err))
