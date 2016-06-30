@@ -1,6 +1,6 @@
 {
   "name": "sugo-agent-compile",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Client for sugo-endpoint-compile",
   "main": "lib",
   "browser": "sims/browser",
