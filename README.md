@@ -69,6 +69,8 @@ $ npm install sugo-agent-compile --save
 Usage
 ---------
 
+Use this agent to access a sg-server (or SUGO-Cloud) which uses [sugo-endpoint-compile][sugo_endpoint_compile_url] plugin.
+
 ```javascript
 'use strict'
 
@@ -121,7 +123,10 @@ This software is released under the [MIT License](https://github.com/realglobe-I
 Links
 ------
 
-+ [sugos](https://github.com/realglobe-Inc/sugos)
-+ [sugo-endpoint-compile](https://github.com/realglobe-Inc/sugo-endpoint-compile)
++ [sugos][sugos_url]
++ [sugo-endpoint-compile][sugo_endpoint_compile_url]
+
+[sugos_url]: https://github.com/realglobe-Inc/sugos
+[sugo_endpoint_compile_url]: https://github.com/realglobe-Inc/sugo-endpoint-compile
 
 <!-- Links End -->
