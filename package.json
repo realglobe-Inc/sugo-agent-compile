@@ -25,17 +25,17 @@
   "homepage": "https://github.com/realglobe-Inc/sugo-agent-compile#readme",
   "dependencies": {
     "co": "^4.6.0",
-    "sugo-agent-base": "^1.2.5"
+    "sugo-agent-base": "^1.2.7"
   },
   "devDependencies": {
-    "ape-tmpl": "^5.0.11",
-    "coz": "^6.0.3",
+    "ape-tmpl": "^5.0.14",
+    "coz": "^6.0.14",
     "injectmock": "^2.0.0",
-    "sg-server": "^1.2.7",
-    "sugo-agent-base": "^1.2.5",
-    "sugo-ci-agent": "^1.0.1",
-    "sugo-endpoint-compile": "^2.0.4",
-    "sugos-assets": "^1.1.9"
+    "sg-server": "^1.2.8",
+    "sugo-agent-base": "^1.2.7",
+    "sugo-ci-agent": "^1.0.6",
+    "sugo-endpoint-compile": "^2.0.6",
+    "sugos-assets": "^2.0.1"
   },
   "engines": {
     "node": ">=6",
