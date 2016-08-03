@@ -71,7 +71,7 @@ $ npm install sugo-agent-compile --save
 Usage
 ---------
 
-Use this agent to access a sg-server (or SUGO-Cloud) which uses [sugo-endpoint-compile][sugo_endpoint_compile_url] plugin.
+Use this agent to access a sg-server (or SUGO-Hub) which uses [sugo-endpoint-compile][sugo_endpoint_compile_url] plugin.
 
 ```javascript
 'use strict'
